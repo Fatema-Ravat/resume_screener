@@ -1,7 +1,8 @@
 from django.db import models
 
 EDU_CHOICES=[
-    ('none','None'),
+    ('unknown','None'),
+    ('diploma',"Diploma")
     ('bachelor',"Bachelor's"),
     ('master',"Master's"),
     ('phd','PHD'),
